@@ -37,7 +37,7 @@ header p{
 }
 
 header.img{
-  background-image: url("../fotos/fundo-ft.jpeg");
+  background-image: url("../estilo/fotos/fundo-ft.jpeg");
   background-position: center center;
   background-size: cover;
 }
@@ -61,6 +61,11 @@ nav a{
 
 main{
   flex: 1;
+}
+
+section{
+    text-align: center;
+    color: rgba(128, 0, 128, 0.445);
 }
 
 footer{
