@@ -9,9 +9,9 @@
     --cor2: #3ddc84;
 }
 
-    *{
-    padding: px;
-    margin: 0px
+* {
+  padding: 0;
+  margin: 0;
 }
 
     html ,body{
