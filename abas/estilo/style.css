@@ -42,7 +42,7 @@
     }
     
     header.img{
-        background-image: url("..fotos/fundo-ft.jpeg");
+        background-image: url("../fotos/fundo-ft.jpeg");
         background-position: center center;
         background-size: cover;
     }
