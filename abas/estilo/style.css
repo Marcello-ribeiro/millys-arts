@@ -23,8 +23,11 @@ body{
 }
 
 header{
-  text-align: center;
-  padding: 35px;
+    text-align: center;
+    padding: 35px;
+    background-image: url("../estilo/fotos/fundo-ft.jpeg");
+    background-position: center center;
+    background-size: cover;
 }
 
 header h1{
@@ -34,12 +37,6 @@ header h1{
 
 header p{
   color: white;
-}
-
-header.img{
-  background-image: url("../estilo/fotos/fundo-ft.jpeg");
-  background-position: center center;
-  background-size: cover;
 }
 
 nav{
