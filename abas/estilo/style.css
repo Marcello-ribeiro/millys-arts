@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+:root{
+    --cor0: black;
+    --cor1: #83e1ad;
+    --cor2: #3ddc84;
+}
+
+*{
+    padding: px;
+    margin: 0px
+}
+
+ html ,body{
+        min-height: 100vh;
+    }
+
+    body{
+
+    }
+
+    header{
+        background-color: rgba(167, 27, 167, 0.678);
+        padding: 35px;
+        color: white;
+        text-align: center;
+        font-size: 1.4em;
+    }
+    
+    header.img{
+        background-image: url(fotos/fundo-ft.jpeg);
+        background-position: center center;
+        background-size: cover;
+    }
+
+    nav{
+        background-image: linear-gradient(to left, black, #DCBEE3, black );
+        text-align: center;
+    }
+
+    nav a{
+         text-decoration: none;
+        color: white;
+        font-size: 1.1em;
+        padding: 5px;
+    }
+
+    main{
+      
+        
+    }
+
+    section{
+
+    }
+
+    footer{
+        
+    }
