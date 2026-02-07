@@ -1,77 +1,78 @@
 @charset "UTF-8";
 
-
-
-
 :root{
-    --cor0: black;
-    --cor1: #83e1ad;
-    --cor2: #3ddc84;
+  --cor0: black;
+  --cor1: #83e1ad;
+  --cor2: #3ddc84;
 }
 
-* {
+*{
   padding: 0;
   margin: 0;
 }
 
-    html ,body{
-        height: 100%;
-        margin: 0;
-    }
+html, body{
+  height: 100%;
+}
 
-    body{
-        display: flex;
-        flex-direction: column;
-        max-width: 800px;
-        margin: auto;
-    }
+body{
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin: auto;
+}
 
-    header{
-     
-        text-align: center;
-        padding: 35px;
-    }
+header{
+  text-align: center;
+  padding: 35px;
+}
 
-    header h1 {
-        color: white; 
-        font-size: 2.8em;
-    }
+header h1{
+  color: white;
+  font-size: 2.8em;
+}
 
-    header p{
-        color: white;
-    }
-    
-    header.img{
-        background-image: url("../fotos/fundo-ft.jpeg");
-        background-position: center center;
-        background-size: cover;
-    }
+header p{
+  color: white;
+}
 
-    nav{
-        background-image: linear-gradient(to left, rgba(0, 0, 0, 0.678), #DCBEE3, rgba(0, 0, 0, 0.678) );
-        text-align: center;
-    }
+header.img{
+  background-image: url("../fotos/fundo-ft.jpeg");
+  background-position: center center;
+  background-size: cover;
+}
 
-    nav a{
-         text-decoration: none;
-        color: white;
-        font-size: 0.8em;
-        padding: 5px;
-    }
+nav{
+  background-image: linear-gradient(
+    to left,
+    rgba(0, 0, 0, 0.678),
+    #DCBEE3,
+    rgba(0, 0, 0, 0.678)
+  );
+  text-align: center;
+}
 
-    main{
-        flex: 1;
-    }
-    footer{
-        font-size: 0.8em ;
-        text-align: center;
-    }
+nav a{
+  text-decoration: none;
+  color: white;
+  font-size: 0.8em;
+  padding: 5px;
+}
 
-    footer a:hover {
-    text-decoration: underline;
-    
-}   
-    footer a{
-        text-decoration: none;
-        color: rgb(235, 47, 103);
-    }
+main{
+  flex: 1;
+}
+
+footer{
+  font-size: 0.8em;
+  text-align: center;
+}
+
+footer a{
+  text-decoration: none;
+  color: rgb(235, 47, 103);
+}
+
+footer a:hover{
+  text-decoration: underline;
+}
