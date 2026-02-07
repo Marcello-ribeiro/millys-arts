@@ -31,7 +31,7 @@ header{
 
 header h1{
   color: white;
-  font-size: 2.8em;
+  font-size: 2.4em;
 }
 
 header p{
@@ -52,7 +52,7 @@ nav{
 nav a{
   text-decoration: none;
   color: white;
-  font-size: 0.8em;
+  font-size: 0.6em;
   padding: 5px;
 }
 
@@ -66,6 +66,35 @@ main > section{
     text-align: center;
     color: rgba(128, 0, 128, 0.445);
 }
+
+.produtos{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+  padding: 10px;
+}
+
+.produto{
+  background: #fff;
+  border-radius: 8px;
+  padding: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,.08);
+}
+
+.produto img{
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.preco{
+  font-size: 14px;
+  font-weight: 700;
+  color: #e60073;
+}
+
+
 
 footer{
   font-size: 0.8em;
