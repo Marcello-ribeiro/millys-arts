@@ -47,6 +47,7 @@ nav{
     rgba(0, 0, 0, 0.678)
   );
   text-align: center;
+  padding: 5px;
 }
 
 nav a{
