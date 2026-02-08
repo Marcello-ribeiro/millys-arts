@@ -62,6 +62,48 @@ nav a{
   padding: 6px;
 }
 
+/* botão hamburguer */
+#abrir-menu{
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  font-size: 24px;
+  background-color: #c93dec69; /* 👈 COR DO BOTÃO */
+  color: #fff;               /* 👈 COR DO ÍCONE ☰ */
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+/* menu lateral */
+#menu-lateral{
+  position: fixed;
+  top: 0;
+  left: -220px;              /* ESCONDIDO */
+  width: 120px;
+  height: 100vh;
+  background: #dcbee352;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transition: left 0.3s ease; /* animação */
+  z-index: 1000;
+}
+
+/* quando ativo */
+#menu-lateral.ativo{
+  left: 0; /* APARECE */
+}
+
+#menu-lateral a{
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+}
+
 /* ===== MAIN ===== */
 
 main{
