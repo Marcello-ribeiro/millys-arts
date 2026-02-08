@@ -1,10 +1,5 @@
 @charset "UTF-8";
 
-:root{
-  --cor0: black;
-  --cor1: #83e1ad;
-  --cor2: #3ddc84;
-}
 
 *{
   padding: 0;
@@ -26,6 +21,11 @@ body{
 /* ===== HEADER ===== */
 
 header{
+ /* position: sticky;      /* deixa o header fixo ao rolar */
+ /* top: 0; */               /* cola no topo */
+ /* z-index: 1000;         /* fica acima do conteúdo */
+
+
   text-align: center;
   padding: 35px;
   background-image: url("../estilo/fotos/fundo-ft.jpeg");
@@ -34,6 +34,7 @@ header{
 }
 
 header h1{
+  text-shadow: 2px 2px 0px black;
   color: white;
   font-size: 2.4em;
 }
@@ -44,16 +45,12 @@ header p{
 
 /* ===== NAV ===== */
 
-nav{
-  background-image: linear-gradient(
-    to left,
-    rgba(0, 0, 0, 0.678),
-    #DCBEE3,
-    rgba(0, 0, 0, 0.678)
-  );
+nav#color{
+  background-color: rgba(202, 118, 202, 0.356);
   text-align: center;
-  padding: 6px;
 }
+
+
 
 nav a{
   text-decoration: none;
@@ -67,10 +64,11 @@ nav a{
   position: fixed;
   top: 15px;
   left: 3px;
-  background-color: #c93dec69; /* 👈 COR DO BOTÃO */
+  font-size: 19px;
+  background-color: #e600c063; /* 👈 COR DO BOTÃO */
   color: #fff;               /* 👈 COR DO ÍCONE ☰ */
   border: none;
-  padding: 6px 10px;
+  padding: 6px;
   border-radius: 6px;
   cursor: pointer;
   z-index: 1001;
@@ -81,7 +79,7 @@ nav a{
   position: fixed;
   top: 0;
   left: -220px;              /* ESCONDIDO */
-  width: 120px;
+  width: 100px;
   height: 100vh;
   background: #dcbee352;
   padding: 20px;
@@ -99,21 +97,26 @@ nav a{
 
 #menu-lateral a{
   text-decoration: none;
-  color: #000000;
+  color: #ffffff;
   font-weight: bold;
-  
+  font-size: 0.9em;
+  text-shadow: 1px 2px 0px black;
 }
 
 /* ===== MAIN ===== */
 
 main{
+  background-image: url(fotos/ft-fundo.jpeg);
+  background-attachment: fixed;
+  background-color: white;
+  background-size: cover;
   flex: 1;
   max-width: 800px;
   margin: auto;
 }
 
 main h2{
-  color: rgba(128, 0, 128, 0.637);
+  color: rgb(255, 255, 255);
   text-align: center;
   margin: 10px 0;
 }
