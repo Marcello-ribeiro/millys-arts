@@ -66,8 +66,7 @@ nav a{
 #abrir-menu{
   position: fixed;
   top: 15px;
-  left: 15px;
-  font-size: 24px;
+  left: 3px;
   background-color: #c93dec69; /* 👈 COR DO BOTÃO */
   color: #fff;               /* 👈 COR DO ÍCONE ☰ */
   border: none;
