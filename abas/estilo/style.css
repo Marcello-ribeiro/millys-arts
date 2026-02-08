@@ -66,10 +66,13 @@ main{
   max-width: 800px;
   margin: auto;
 }
+main h2{
+  color: rgba(128, 0, 128, 0.637);
+}
 
 main > section{
     text-align: center;
-    color: rgba(128, 0, 128, 0.445);
+    color: rgb(0, 0, 0);
 }
 
 .produtos{
@@ -97,6 +100,18 @@ main > section{
   font-size: 14px;
   font-weight: 700;
   color: #e60073;
+}
+
+small#rosa{
+ color: #e60073;
+}
+
+small#roxo{
+ color: #6b00e6;
+}
+
+small#azul{
+ color: #6b00e6;
 }
 
 
