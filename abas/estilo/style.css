@@ -9,6 +9,7 @@
 *{
   padding: 0;
   margin: 0;
+  box-sizing: border-box; /* evita bug de tamanho */
 }
 
 html, body{
@@ -19,14 +20,17 @@ body{
   display: flex;
   flex-direction: column;
   margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
+/* ===== HEADER ===== */
+
 header{
-    text-align: center;
-    padding: 35px;
-    background-image: url("../estilo/fotos/fundo-ft.jpeg");
-    background-position: center center;
-    background-size: cover;
+  text-align: center;
+  padding: 35px;
+  background-image: url("../estilo/fotos/fundo-ft.jpeg");
+  background-position: center;
+  background-size: cover;
 }
 
 header h1{
@@ -38,6 +42,7 @@ header p{
   color: white;
 }
 
+/* ===== NAV ===== */
 
 nav{
   background-image: linear-gradient(
@@ -47,47 +52,48 @@ nav{
     rgba(0, 0, 0, 0.678)
   );
   text-align: center;
-  padding: 5px;
+  padding: 6px;
 }
 
 nav a{
   text-decoration: none;
   color: white;
   font-size: 0.8em;
-  padding: 3px;
+  padding: 6px;
 }
 
+/* ===== MAIN ===== */
+
 main{
-  min-height: 100vh;
-  background-image: url();
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   flex: 1;
   max-width: 800px;
   margin: auto;
 }
+
 main h2{
   color: rgba(128, 0, 128, 0.637);
+  text-align: center;
+  margin: 10px 0;
 }
 
-main > section{
-    text-align: center;
-    color: rgb(0, 0, 0);
-}
+/* ===== PRODUTOS ===== */
 
 .produtos{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 8px;
+  gap: 10px;
   padding: 10px;
 }
 
 .produto{
   background: #fff;
   border-radius: 8px;
-  padding: 6px;
+  padding: 8px;
   box-shadow: 0 2px 6px rgba(0,0,0,.08);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .produto img{
@@ -97,29 +103,64 @@ main > section{
   border-radius: 6px;
 }
 
+.titulo{
+  margin-top: 6px;
+}
+
 .preco{
   font-size: 14px;
   font-weight: 700;
   color: #e60073;
 }
 
+/* ===== BOTÃO ADICIONAR AO CARRINHO ===== */
+
+.botao{
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.carrinho{
+  background-color: #6b00e649; /* roxo sólido (antes estava transparente demais) */
+  color: #fff;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.carrinho:hover{
+  background-color: #4900a88c; /* hover mais escuro e visível */
+}
+
+.info-carro{
+  font-size: 12px;
+  color: #555;
+}
+
+/* ===== SMALL COLORS ===== */
+
 small#rosa{
- color: #e60073;
+  color: #e60073;
 }
 
 small#roxo{
- color: #6b00e6;
+  color: #6b00e65d;
 }
 
 small#azul{
- color: #6b00e6;
+  color: #0066e6;
 }
 
-
+/* ===== FOOTER ===== */
 
 footer{
   font-size: 0.8em;
   text-align: center;
+  padding: 10px;
 }
 
 footer a{
