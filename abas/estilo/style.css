@@ -31,6 +31,9 @@ header{
   background-image: url("../estilo/fotos/fundo-ft.jpeg");
   background-position: center;
   background-size: cover;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.479);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 header h1{
@@ -44,13 +47,6 @@ header p{
 }
 
 /* ===== NAV ===== */
-
-nav#color{
-  background-color: rgba(202, 118, 202, 0.356);
-  text-align: center;
-}
-
-
 
 nav a{
   text-decoration: none;
@@ -103,11 +99,15 @@ nav a{
   text-shadow: 1px 2px 0px black;
 }
 
+section#emoji{
+  text-align: center;
+  padding-bottom: -20px;
+  margin-bottom: -1px;
+}
+
 /* ===== MAIN ===== */
 
 main{
-  background-image: url(fotos/ft-fundo.jpeg);
-  background-attachment: fixed;
   background-color: white;
   background-size: cover;
   flex: 1;
