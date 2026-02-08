@@ -46,6 +46,26 @@ header p{
   color: white;
 }
 
+/* ===== botao carrinho ===== */
+
+.carro-bt{
+  align-items: right;
+  gap: 6px;
+}
+
+.carrinho-bt{
+ position: fixed;
+ right: 3px;
+  top: 15px;
+  font-size: 19px;
+  background-color: #e600c063; /* 👈 COR DO BOTÃO */
+  color: #ffffff00;               /* 👈 COR DO ÍCONE ☰ */
+  padding: 6px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+
 /* ===== NAV ===== */
 
 nav a{
