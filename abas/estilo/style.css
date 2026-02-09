@@ -31,7 +31,7 @@ header{
   background-image: url("../estilo/fotos/fundo-ft.jpeg");
   background-position: center;
   background-size: cover;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.479);
+  box-shadow: 3px 2px 4px rgba(0, 0, 0, 0.479);
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
@@ -58,11 +58,14 @@ header p{
  right: 3px;
   top: 15px;
   font-size: 19px;
-  background-color: #e600c063; /* 👈 COR DO BOTÃO */
   color: #ffffff00;               /* 👈 COR DO ÍCONE ☰ */
   padding: 6px;
   border-radius: 6px;
   cursor: pointer;
+}
+
+.carrinho-bt a{
+  text-decoration: none;
 }
 
 
@@ -120,6 +123,7 @@ nav a{
 }
 
 section#emoji{
+  font-size: 0.7em;
   text-align: center;
   padding-bottom: -20px;
   margin-bottom: -1px;
@@ -151,7 +155,7 @@ main h2{
 }
 
 .produto{
-  background: #fff;
+  background: #cb34df2f;
   border-radius: 8px;
   padding: 8px;
   box-shadow: 0 2px 6px rgba(0,0,0,.08);
