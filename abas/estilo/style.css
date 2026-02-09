@@ -49,8 +49,9 @@ header p{
 /* ===== botao carrinho ===== */
 
 .carro-bt{
-  align-items: right;
-  gap: 6px;
+align-items: right;
+width: 30px;
+border-radius: 3px;
 }
 
 .carrinho-bt{
@@ -66,7 +67,9 @@ header p{
 
 .carrinho-bt a{
   text-decoration: none;
+  cursor:pointer ;
 }
+
 
 
 /* ===== NAV ===== */
@@ -148,11 +151,11 @@ main h2{
 /* ===== PRODUTOS ===== */
 
 .produtos{
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
-  padding: 10px;
-}
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap: 10px;
+    padding: 10px;
+    cursor: pointer;}
 
 .produto{
   background: #cb34df2f;
@@ -170,6 +173,13 @@ main h2{
   height: 140px;
   object-fit: cover;
   border-radius: 6px;
+}
+
+div :hover{
+  background-color: rgba(128, 0, 128, 0.329);
+  border-radius: 8px;
+  padding: 2px;
+  transition: 0.2s;
 }
 
 .titulo{
